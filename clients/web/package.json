@@ -1,7 +1,7 @@
 {
-  "name": "web",
+  "name": "Ayni web client",
   "version": "0.0.0",
-  "description": "Small description for web goes here",
+  "description": "Ayni web client",
   "private": true,
   "directories": {
     "doc": "doc",
@@ -16,7 +16,7 @@
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "Alejandro Zuleta",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.0.2",
