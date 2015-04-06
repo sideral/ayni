@@ -1,2 +1,19 @@
-node_modules
+# WebStorm
 .idea
+
+# compiled web output for ember
+dist/
+tmp/
+build/
+
+# dependencies
+bower_components/
+node_modules/
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage/*
+/libpeerconnection.log
+npm-debug.log
+testem.log
