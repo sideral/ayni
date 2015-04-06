@@ -17,3 +17,6 @@ coverage/*
 libpeerconnection.log
 npm-debug.log
 testem.log
+
+#hacks
+/web-ui/serve

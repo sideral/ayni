@@ -12,6 +12,7 @@ var app = express();
 // view engine setup
 app.set('views', path.join(__dirname, './pages/views'));
 app.set('view engine', 'hbs');
+app.set('view options', { layout: 'layouts/main' });
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(__dirname + '/public/favicon.ico'));
