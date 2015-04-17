@@ -11,7 +11,7 @@ var api = require('./routes/api');
 var app = express();
 
 // view engine setup
-app.set('views', path.join(__dirname, '../client/views'));
+app.set('views', path.join(__dirname, '../client/templates/pages'));
 app.set('view engine', 'hbs');
 app.set('view options', {layout: 'layouts/main'});
 
