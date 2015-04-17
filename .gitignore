@@ -10,8 +10,8 @@ bower_components/
 node_modules/
 
 # config files
-config/development.js
-config/production.js
+web/server/config/development.js
+web/server/config/production.js
 
 # misc
 /.sass-cache
