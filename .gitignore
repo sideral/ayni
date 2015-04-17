@@ -1,10 +1,9 @@
 # WebStorm
-.idea
+.idea/
 
-# compiled web output for ember
-dist/
+# compiled web output
 tmp/
-build/
+public/
 
 # dependencies
 bower_components/
@@ -38,3 +37,5 @@ logs
 
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
+
+
