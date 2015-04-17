@@ -9,6 +9,10 @@ public/
 bower_components/
 node_modules/
 
+# config files
+config/development.js
+config/production.js
+
 # misc
 /.sass-cache
 connect.lock
