@@ -21,4 +21,13 @@ gulp.task('vendor.css', function () {
     .pipe(gulp.dest('public/css'));
 });
 
+gulp.task('app.css', function () {
+  return gulp.src([
+    clientDir + '/styles/main.css'
+  ]).pipe(concat('app.css'))
+    .pipe(gulp.dest('public/css'));
+});
+
+
 gulp.task('vendor', ['vendor.js', 'vendor.css']);
+gulp.task('app', ['app.css']);
